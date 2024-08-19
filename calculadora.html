@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <aside class="resultado">
+             <input id="visor" class="tela" type="text" placeholder="0" disabled >
+        </aside>
+           
+            <div class="button">
+                <div class="butn-row">
+                    <button onclick="calcular('simbolo','c')" class="butn butn-simbolo">C</button>
+                    <button onclick="calcular('simbolo','X')" class="butn butn-simbolo">&larr;</button>
+                    <button onclick="calcular('simbolo','%')" class="butn butn-simbolo">%</button>
+                    <button onclick="calcular('simbolo','÷')" class="butn butn-simbolo">&divide;</button>
+                </div>
+                <div class="butn-row">
+                    <button onclick="calcular('numero',7)" class="butn">7</button>
+                    <button onclick="calcular('numero',8)" class="butn">8</button>
+                    <button onclick="calcular('numero',9)" class="butn">9</button>
+                    <button onclick="calcular('simbolo','×')" class="butn butn-simbolo">&times;</button>
+                </div>
+                <div class="butn-row">
+                    <button onclick="calcular('numero',4)" class="butn">4</button>
+                    <button onclick="calcular('numero',5)" class="butn">5</button>
+                    <button onclick="calcular('numero',6)" class="butn">6</button>
+                    <button onclick="calcular('simbolo','-')" class="butn butn-simbolo">&minus;</button>
+                </div>
+                <div class="butn-row">
+                    <button onclick="calcular('numero',1)" class="butn">1</button>
+                    <button onclick="calcular('numero',2)" class="butn">2</button>
+                    <button onclick="calcular('numero',3)" class="butn">3</button>
+                    <button onclick="calcular('simbolo','+')" class="butn butn-simbolo">&plus;</button>
+                </div>
+                <div class="butn-row">
+                    <button onclick="calcular('numero',0)" class="butn butn-zero">0</button>
+                    <button onclick="calcular('simbolo',',')" class="butn">&sbquo;</button>
+                    <button onclick="calcular('simbolo','=')" class="butn butn-igual">&#61;</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
