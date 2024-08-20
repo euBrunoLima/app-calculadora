@@ -18,7 +18,7 @@ main{
     height: auto;
     margin: 10px 18px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.364); /* Fundo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.364);
     backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
     border-radius: 16px;
     box-shadow: 0px 4px 30px #49b9ff90 ;
@@ -26,19 +26,6 @@ main{
 
     
 }
-/*.tela{
-    
-    background-color: rgba(255, 255, 255, 0.364);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    font-size: 2.5rem;
-    text-align: right;
-    height: 80px;
-    margin-bottom: 20px;
-    padding: 5px;
-    box-shadow: 1px 1px 20px #64c2fc57;
-    
-}*/
 
 .resultado{
     display: flex;
@@ -51,7 +38,7 @@ main{
     background-color: rgba(255, 255, 255, 0.364);
     backdrop-filter: blur(10px);
     border-radius: 16px;
-    font-size: 2.1rem;
+    font-size: 2rem;
     text-align: right;
     margin-bottom: 20px;
     padding: 5px;
@@ -74,7 +61,7 @@ main{
     font-size: 24px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.2s ease; 
+    transition: all 0.1s ease; 
 }
 .butn:hover {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); 
