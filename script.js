@@ -41,10 +41,6 @@ function calcular(tipo, valor) {
         visor.value += valor
 }
 function carcterConsecutivo(str) {
-    const regex = /([+'/'-*÷])\1+/g;
+    const regex = /([+'/'-*÷])\1+/g; //verifica se há dois simbolos em sequencia
     return regex.test(str);
-}
-function limparPlaceholder(visor){
-    visor.value = ''
-    visor.placeholder = "Syntax error"
 }
